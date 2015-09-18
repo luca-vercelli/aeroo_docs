@@ -3,3 +3,7 @@ https://github.com/aeroo/aeroo_docs/wiki/Installation-example-for-Ubuntu-14.04-L
 
 for help:
 ./aeroo-docs --help
+
+Debian users can build .deb package with:
+dpkg-buildpackage
+
