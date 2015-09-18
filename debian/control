@@ -1,0 +1,35 @@
+Source: aeroodocs-server
+Section: net
+Priority: optional
+Maintainer: Luca Vercelli <luca.vercelli.to@gmail.com>
+Uploaders: 
+Build-Depends: debhelper (>= 9.0), python, rsync
+X-Python-Version: 2.7
+Standards-Version: 3.9.5.0
+Homepage: http://www.alistek.com/
+Vcs-Git: https://github.com/aeroo/aeroo_docs
+
+Package: aeroodocs-server
+Architecture: all
+Depends:
+ ${misc:Depends},
+ python-aeroo,
+ python3,
+ python3-pip,
+ libreoffice-script-provider-python,
+ libreoffice-base|openoffice.org-base,
+Recommends:
+ aeroo-docs
+Description: Python library for Aeroo Reports
+ Aeroo Library is a templating library which provides a way to easily 
+ output several kinds of files (odt, ods). Support for more filetypes
+ can be easily added by creating plugins for them.
+ .
+ Aeroo Library also provides a report repository allowing you to link
+ python objects and report together, find reports by mimetype/name/python
+ object.
+ .
+ This package include the server that takes HTTP request from Odoo
+ and wrap them to Openoffice/Libreoffice Headless server, and an init script 
+ for the latter.
+ 

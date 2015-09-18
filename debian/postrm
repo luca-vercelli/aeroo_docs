@@ -1,0 +1,5 @@
+#!/bin/bash -e
+update-rc.d office defaults
+update-rc.d aeroo-docs defaults
+
+#DEBHELPER#

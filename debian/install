@@ -1,0 +1,6 @@
+debian/office /etc/init.d
+debian/aeroo-docs /etc/init.d
+debian/aeroo-docs.conf /etc
+aeroo-docs /usr/lib/aeroo_docs
+aeroo_docs_fncs.py /usr/lib/aeroo_docs
+DocumentConverter.py /usr/lib/aeroo_docs

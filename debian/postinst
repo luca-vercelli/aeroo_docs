@@ -1,0 +1,10 @@
+#!/bin/bash -e
+
+update-rc.d office defaults
+update-rc.d aeroo-docs defaults
+
+#As far as I can see, these eggs are not packaged in Debian:
+pip3 install jsonrpc2 daemonize
+
+#DEBHELPER#
+
